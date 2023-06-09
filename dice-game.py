@@ -12,4 +12,9 @@ def dice_game():
     total_value = die1 + die2
     print("Toral value: ",total_value)
 
+    if total_value > 7:
+        print("You won!")
+    else:
+        print("You lost!")
+
 dice_game()
