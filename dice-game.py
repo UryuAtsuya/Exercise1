@@ -4,6 +4,8 @@ def roll_dice():
     return random.randint(1,6)
 
 def dice_game():
+    name = input("What is your name?\n>")
+    print("Hello, " + name + "!")
     print("Rolling dice...")
     die1 = roll_dice()
     die2 = roll_dice()
